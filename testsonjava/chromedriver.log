@@ -1,0 +1,1571 @@
+[1551097514.638][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [  ],
+            "extensions": [  ]
+         }
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [  ],
+         "extensions": [  ]
+      }
+   }
+}
+[1551097514.640][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1551097514.641][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1551097514.646][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --disable-web-resources --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --force-fieldtrials=SiteIsolationExtensions/Control --ignore-certificate-errors --load-extension="C:\Users\User\AppData\Local\Temp\scoped_dir8448_29323\internal" --log-level=0 --metrics-recording-only --no-first-run --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\User\AppData\Local\Temp\scoped_dir8448_32011" data:,
+[1551097516.016][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1551097517.035][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE InitSession {
+   "acceptInsecureCerts": false,
+   "acceptSslCerts": false,
+   "applicationCacheEnabled": false,
+   "browserConnectionEnabled": false,
+   "browserName": "chrome",
+   "chrome": {
+      "chromedriverVersion": "2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1)",
+      "userDataDir": "C:\\Users\\User\\AppData\\Local\\Temp\\scoped_dir8448_32011"
+   },
+   "cssSelectorsEnabled": true,
+   "databaseEnabled": false,
+   "goog:chromeOptions": {
+      "debuggerAddress": "localhost:57890"
+   },
+   "handlesAlerts": true,
+   "hasTouchScreen": false,
+   "javascriptEnabled": true,
+   "locationContextEnabled": true,
+   "mobileEmulationEnabled": false,
+   "nativeEvents": true,
+   "networkConnectionEnabled": false,
+   "pageLoadStrategy": "normal",
+   "platform": "Windows NT",
+   "proxy": {
+
+   },
+   "~~~": "..."
+}
+[1551097517.093][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND MaximizeWindow {
+   "handle": "current",
+   "windowHandle": "current"
+}
+[1551097517.094][INFO]: Waiting for pending navigations...
+[1551097517.103][INFO]: Done waiting for pending navigations. Status: ok
+[1551097517.104][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1551097518.217][INFO]: Waiting for pending navigations...
+[1551097518.218][INFO]: Done waiting for pending navigations. Status: ok
+[1551097518.218][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE MaximizeWindow {
+   "height": 1000,
+   "width": 1296,
+   "x": -8,
+   "y": -8
+}
+[1551097518.222][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND SetTimeouts {
+   "ms": 30000,
+   "type": "implicit"
+}
+[1551097518.222][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE SetTimeouts
+[1551097518.228][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND Navigate {
+   "url": "https://www.google.com/"
+}
+[1551097518.228][INFO]: Waiting for pending navigations...
+[1551097518.229][INFO]: Done waiting for pending navigations. Status: ok
+[1551097518.635][INFO]: Waiting for pending navigations...
+[1551097520.917][INFO]: Done waiting for pending navigations. Status: ok
+[1551097520.917][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE Navigate
+[1551097520.921][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND Refresh {
+
+}
+[1551097520.921][INFO]: Waiting for pending navigations...
+[1551097520.922][INFO]: Done waiting for pending navigations. Status: ok
+[1551097520.924][INFO]: Waiting for pending navigations...
+[1551097520.926][INFO]: Done waiting for pending navigations. Status: ok
+[1551097520.926][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE Refresh
+[1551097520.949][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND FindElement {
+   "using": "name",
+   "value": "q"
+}
+[1551097520.949][INFO]: Waiting for pending navigations...
+[1551097521.676][INFO]: Done waiting for pending navigations. Status: ok
+[1551097521.691][INFO]: Waiting for pending navigations...
+[1551097521.692][INFO]: Done waiting for pending navigations. Status: ok
+[1551097521.692][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE FindElement {
+   "ELEMENT": "0.30515511232069725-1"
+}
+[1551097521.696][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND TypeElement {
+   "id": "0.30515511232069725-1",
+   "value": [ "automation" ]
+}
+[1551097521.697][INFO]: Waiting for pending navigations...
+[1551097521.698][INFO]: Done waiting for pending navigations. Status: ok
+[1551097521.783][INFO]: Waiting for pending navigations...
+[1551097521.783][INFO]: Done waiting for pending navigations. Status: ok
+[1551097521.783][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE TypeElement
+[1551097521.791][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND TypeElement {
+   "id": "0.30515511232069725-1",
+   "value": [ "" ]
+}
+[1551097521.791][INFO]: Waiting for pending navigations...
+[1551097521.792][INFO]: Done waiting for pending navigations. Status: ok
+[1551097521.825][INFO]: Waiting for pending navigations...
+[1551097525.277][INFO]: Done waiting for pending navigations. Status: ok
+[1551097525.278][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE TypeElement
+[1551097525.284][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND FindElement {
+   "using": "id",
+   "value": "rso"
+}
+[1551097525.284][INFO]: Waiting for pending navigations...
+[1551097525.285][INFO]: Done waiting for pending navigations. Status: ok
+[1551097525.308][INFO]: Waiting for pending navigations...
+[1551097525.309][INFO]: Done waiting for pending navigations. Status: ok
+[1551097525.309][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE FindElement {
+   "ELEMENT": "0.7938303186983755-1"
+}
+[1551097525.313][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND FindChildElements {
+   "id": "0.7938303186983755-1",
+   "using": "css selector",
+   "value": ".g"
+}
+[1551097525.313][INFO]: Waiting for pending navigations...
+[1551097525.314][INFO]: Done waiting for pending navigations. Status: ok
+[1551097525.324][INFO]: Waiting for pending navigations...
+[1551097525.325][INFO]: Done waiting for pending navigations. Status: ok
+[1551097525.325][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE FindChildElements [ {
+   "ELEMENT": "0.7938303186983755-2"
+}, {
+   "ELEMENT": "0.7938303186983755-3"
+}, {
+   "ELEMENT": "0.7938303186983755-4"
+}, {
+   "ELEMENT": "0.7938303186983755-5"
+}, {
+   "ELEMENT": "0.7938303186983755-6"
+}, {
+   "ELEMENT": "0.7938303186983755-7"
+}, {
+   "ELEMENT": "0.7938303186983755-8"
+}, {
+   "ELEMENT": "0.7938303186983755-9"
+}, {
+   "ELEMENT": "0.7938303186983755-10"
+} ]
+[1551097525.333][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND FindChildElement {
+   "id": "0.7938303186983755-2",
+   "using": "class name",
+   "value": "iUh30"
+}
+[1551097525.333][INFO]: Waiting for pending navigations...
+[1551097525.334][INFO]: Done waiting for pending navigations. Status: ok
+[1551097525.343][INFO]: Waiting for pending navigations...
+[1551097525.344][INFO]: Done waiting for pending navigations. Status: ok
+[1551097525.344][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE FindChildElement {
+   "ELEMENT": "0.7938303186983755-11"
+}
+[1551097525.347][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND GetElementText {
+   "id": "0.7938303186983755-11"
+}
+[1551097525.347][INFO]: Waiting for pending navigations...
+[1551097525.348][INFO]: Done waiting for pending navigations. Status: ok
+[1551097525.361][INFO]: Waiting for pending navigations...
+[1551097525.362][INFO]: Done waiting for pending navigations. Status: ok
+[1551097525.362][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE GetElementText "https://en.wikipedia.org/wiki/Automation"
+[1551097525.365][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND FindChildElement {
+   "id": "0.7938303186983755-3",
+   "using": "class name",
+   "value": "iUh30"
+}
+[1551097525.365][INFO]: Waiting for pending navigations...
+[1551097525.365][INFO]: Done waiting for pending navigations. Status: ok
+[1551097525.385][INFO]: Waiting for pending navigations...
+[1551097525.390][INFO]: Done waiting for pending navigations. Status: ok
+[1551097525.390][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE FindChildElement {
+   "ELEMENT": "0.7938303186983755-12"
+}
+[1551097525.392][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND GetElementText {
+   "id": "0.7938303186983755-12"
+}
+[1551097525.392][INFO]: Waiting for pending navigations...
+[1551097525.393][INFO]: Done waiting for pending navigations. Status: ok
+[1551097525.407][INFO]: Waiting for pending navigations...
+[1551097525.408][INFO]: Done waiting for pending navigations. Status: ok
+[1551097525.408][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE GetElementText "https://www.automationgame.com/"
+[1551097525.411][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND FindChildElement {
+   "id": "0.7938303186983755-4",
+   "using": "class name",
+   "value": "iUh30"
+}
+[1551097525.411][INFO]: Waiting for pending navigations...
+[1551097525.411][INFO]: Done waiting for pending navigations. Status: ok
+[1551097525.421][INFO]: Waiting for pending navigations...
+[1551097525.422][INFO]: Done waiting for pending navigations. Status: ok
+[1551097525.422][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE FindChildElement {
+   "ELEMENT": "0.7938303186983755-13"
+}
+[1551097525.425][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND GetElementText {
+   "id": "0.7938303186983755-13"
+}
+[1551097525.425][INFO]: Waiting for pending navigations...
+[1551097525.425][INFO]: Done waiting for pending navigations. Status: ok
+[1551097525.438][INFO]: Waiting for pending navigations...
+[1551097525.439][INFO]: Done waiting for pending navigations. Status: ok
+[1551097525.439][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE GetElementText "https://store.steampowered.com/.../Automation__The_Car_C..."
+[1551097525.443][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND FindChildElement {
+   "id": "0.7938303186983755-5",
+   "using": "class name",
+   "value": "iUh30"
+}
+[1551097525.443][INFO]: Waiting for pending navigations...
+[1551097525.443][INFO]: Done waiting for pending navigations. Status: ok
+[1551097525.453][INFO]: Waiting for pending navigations...
+[1551097525.453][INFO]: Done waiting for pending navigations. Status: ok
+[1551097525.453][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE FindChildElement {
+   "ELEMENT": "0.7938303186983755-14"
+}
+[1551097525.456][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND GetElementText {
+   "id": "0.7938303186983755-14"
+}
+[1551097525.456][INFO]: Waiting for pending navigations...
+[1551097525.456][INFO]: Done waiting for pending navigations. Status: ok
+[1551097525.470][INFO]: Waiting for pending navigations...
+[1551097525.470][INFO]: Done waiting for pending navigations. Status: ok
+[1551097525.470][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE GetElementText "https://www.techopedia.com/definition/32099/automation"
+[1551097525.474][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND FindChildElement {
+   "id": "0.7938303186983755-6",
+   "using": "class name",
+   "value": "iUh30"
+}
+[1551097525.474][INFO]: Waiting for pending navigations...
+[1551097525.474][INFO]: Done waiting for pending navigations. Status: ok
+[1551097525.484][INFO]: Waiting for pending navigations...
+[1551097525.484][INFO]: Done waiting for pending navigations. Status: ok
+[1551097525.484][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE FindChildElement {
+   "ELEMENT": "0.7938303186983755-15"
+}
+[1551097525.486][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND GetElementText {
+   "id": "0.7938303186983755-15"
+}
+[1551097525.486][INFO]: Waiting for pending navigations...
+[1551097525.487][INFO]: Done waiting for pending navigations. Status: ok
+[1551097525.500][INFO]: Waiting for pending navigations...
+[1551097525.500][INFO]: Done waiting for pending navigations. Status: ok
+[1551097525.500][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE GetElementText "https://www.automation.com/"
+[1551097525.504][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND FindChildElement {
+   "id": "0.7938303186983755-7",
+   "using": "class name",
+   "value": "iUh30"
+}
+[1551097525.504][INFO]: Waiting for pending navigations...
+[1551097525.504][INFO]: Done waiting for pending navigations. Status: ok
+[1551097525.514][INFO]: Waiting for pending navigations...
+[1551097525.514][INFO]: Done waiting for pending navigations. Status: ok
+[1551097525.514][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE FindChildElement {
+   "ELEMENT": "0.7938303186983755-16"
+}
+[1551097525.516][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND GetElementText {
+   "id": "0.7938303186983755-16"
+}
+[1551097525.516][INFO]: Waiting for pending navigations...
+[1551097525.517][INFO]: Done waiting for pending navigations. Status: ok
+[1551097525.531][INFO]: Waiting for pending navigations...
+[1551097525.531][INFO]: Done waiting for pending navigations. Status: ok
+[1551097525.531][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE GetElementText "https://www.isa.org/about-isa/what-is-automation/"
+[1551097525.535][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND FindChildElement {
+   "id": "0.7938303186983755-8",
+   "using": "class name",
+   "value": "iUh30"
+}
+[1551097525.535][INFO]: Waiting for pending navigations...
+[1551097525.535][INFO]: Done waiting for pending navigations. Status: ok
+[1551097525.545][INFO]: Waiting for pending navigations...
+[1551097525.545][INFO]: Done waiting for pending navigations. Status: ok
+[1551097525.545][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE FindChildElement {
+   "ELEMENT": "0.7938303186983755-17"
+}
+[1551097525.547][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND GetElementText {
+   "id": "0.7938303186983755-17"
+}
+[1551097525.547][INFO]: Waiting for pending navigations...
+[1551097525.548][INFO]: Done waiting for pending navigations. Status: ok
+[1551097525.561][INFO]: Waiting for pending navigations...
+[1551097525.562][INFO]: Done waiting for pending navigations. Status: ok
+[1551097525.562][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE GetElementText "https://www.britannica.com/.../automation/Advantages-and-d..."
+[1551097525.565][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND FindChildElement {
+   "id": "0.7938303186983755-9",
+   "using": "class name",
+   "value": "iUh30"
+}
+[1551097525.565][INFO]: Waiting for pending navigations...
+[1551097525.565][INFO]: Done waiting for pending navigations. Status: ok
+[1551097525.575][INFO]: Waiting for pending navigations...
+[1551097525.575][INFO]: Done waiting for pending navigations. Status: ok
+[1551097525.576][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE FindChildElement {
+   "ELEMENT": "0.7938303186983755-18"
+}
+[1551097525.578][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND GetElementText {
+   "id": "0.7938303186983755-18"
+}
+[1551097525.578][INFO]: Waiting for pending navigations...
+[1551097525.578][INFO]: Done waiting for pending navigations. Status: ok
+[1551097525.591][INFO]: Waiting for pending navigations...
+[1551097525.592][INFO]: Done waiting for pending navigations. Status: ok
+[1551097525.592][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE GetElementText "https://www.britannica.com/technology/automation"
+[1551097525.595][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND FindChildElement {
+   "id": "0.7938303186983755-10",
+   "using": "class name",
+   "value": "iUh30"
+}
+[1551097525.595][INFO]: Waiting for pending navigations...
+[1551097525.595][INFO]: Done waiting for pending navigations. Status: ok
+[1551097525.605][INFO]: Waiting for pending navigations...
+[1551097525.606][INFO]: Done waiting for pending navigations. Status: ok
+[1551097525.606][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE FindChildElement {
+   "ELEMENT": "0.7938303186983755-19"
+}
+[1551097525.608][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND GetElementText {
+   "id": "0.7938303186983755-19"
+}
+[1551097525.608][INFO]: Waiting for pending navigations...
+[1551097525.608][INFO]: Done waiting for pending navigations. Status: ok
+[1551097525.621][INFO]: Waiting for pending navigations...
+[1551097525.622][INFO]: Done waiting for pending navigations. Status: ok
+[1551097525.622][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE GetElementText "https://www.automationworld.com/"
+[1551097525.625][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND FindElement {
+   "using": "id",
+   "value": "pnnext"
+}
+[1551097525.625][INFO]: Waiting for pending navigations...
+[1551097525.625][INFO]: Done waiting for pending navigations. Status: ok
+[1551097525.635][INFO]: Waiting for pending navigations...
+[1551097525.635][INFO]: Done waiting for pending navigations. Status: ok
+[1551097525.635][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE FindElement {
+   "ELEMENT": "0.7938303186983755-20"
+}
+[1551097525.639][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND ClickElement {
+   "id": "0.7938303186983755-20"
+}
+[1551097525.639][INFO]: Waiting for pending navigations...
+[1551097525.640][INFO]: Done waiting for pending navigations. Status: ok
+[1551097525.727][INFO]: Waiting for pending navigations...
+[1551097527.553][INFO]: Done waiting for pending navigations. Status: ok
+[1551097527.553][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE ClickElement
+[1551097527.557][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND FindElement {
+   "using": "id",
+   "value": "rso"
+}
+[1551097527.557][INFO]: Waiting for pending navigations...
+[1551097527.558][INFO]: Done waiting for pending navigations. Status: ok
+[1551097527.564][INFO]: Waiting for pending navigations...
+[1551097527.565][INFO]: Done waiting for pending navigations. Status: ok
+[1551097527.565][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE FindElement {
+   "ELEMENT": "0.7064541067536054-1"
+}
+[1551097527.568][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND FindChildElements {
+   "id": "0.7064541067536054-1",
+   "using": "css selector",
+   "value": ".g"
+}
+[1551097527.568][INFO]: Waiting for pending navigations...
+[1551097527.568][INFO]: Done waiting for pending navigations. Status: ok
+[1551097527.582][INFO]: Waiting for pending navigations...
+[1551097527.583][INFO]: Done waiting for pending navigations. Status: ok
+[1551097527.583][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE FindChildElements [ {
+   "ELEMENT": "0.7064541067536054-2"
+}, {
+   "ELEMENT": "0.7064541067536054-3"
+}, {
+   "ELEMENT": "0.7064541067536054-4"
+}, {
+   "ELEMENT": "0.7064541067536054-5"
+}, {
+   "ELEMENT": "0.7064541067536054-6"
+}, {
+   "ELEMENT": "0.7064541067536054-7"
+}, {
+   "ELEMENT": "0.7064541067536054-8"
+}, {
+   "ELEMENT": "0.7064541067536054-9"
+}, {
+   "ELEMENT": "0.7064541067536054-10"
+}, {
+   "ELEMENT": "0.7064541067536054-11"
+} ]
+[1551097527.587][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND FindChildElement {
+   "id": "0.7064541067536054-2",
+   "using": "class name",
+   "value": "iUh30"
+}
+[1551097527.587][INFO]: Waiting for pending navigations...
+[1551097527.587][INFO]: Done waiting for pending navigations. Status: ok
+[1551097527.597][INFO]: Waiting for pending navigations...
+[1551097527.597][INFO]: Done waiting for pending navigations. Status: ok
+[1551097527.597][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE FindChildElement {
+   "ELEMENT": "0.7064541067536054-12"
+}
+[1551097527.600][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND GetElementText {
+   "id": "0.7064541067536054-12"
+}
+[1551097527.600][INFO]: Waiting for pending navigations...
+[1551097527.600][INFO]: Done waiting for pending navigations. Status: ok
+[1551097527.614][INFO]: Waiting for pending navigations...
+[1551097527.615][INFO]: Done waiting for pending navigations. Status: ok
+[1551097527.615][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE GetElementText "https://www.youtube.com/watch?v=xb6Xj1gfljc"
+[1551097527.618][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND FindChildElement {
+   "id": "0.7064541067536054-3",
+   "using": "class name",
+   "value": "iUh30"
+}
+[1551097527.618][INFO]: Waiting for pending navigations...
+[1551097527.618][INFO]: Done waiting for pending navigations. Status: ok
+[1551097527.628][INFO]: Waiting for pending navigations...
+[1551097527.629][INFO]: Done waiting for pending navigations. Status: ok
+[1551097527.629][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE FindChildElement {
+   "ELEMENT": "0.7064541067536054-13"
+}
+[1551097527.637][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND GetElementText {
+   "id": "0.7064541067536054-13"
+}
+[1551097527.638][INFO]: Waiting for pending navigations...
+[1551097527.694][INFO]: Done waiting for pending navigations. Status: ok
+[1551097527.707][INFO]: Waiting for pending navigations...
+[1551097527.717][INFO]: Done waiting for pending navigations. Status: ok
+[1551097527.718][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE GetElementText "https://www.rockwellautomation.com/"
+[1551097527.723][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND FindChildElement {
+   "id": "0.7064541067536054-4",
+   "using": "class name",
+   "value": "iUh30"
+}
+[1551097527.723][INFO]: Waiting for pending navigations...
+[1551097527.724][INFO]: Done waiting for pending navigations. Status: ok
+[1551097527.734][INFO]: Waiting for pending navigations...
+[1551097527.734][INFO]: Done waiting for pending navigations. Status: ok
+[1551097527.734][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE FindChildElement {
+   "ELEMENT": "0.7064541067536054-14"
+}
+[1551097527.736][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND GetElementText {
+   "id": "0.7064541067536054-14"
+}
+[1551097527.736][INFO]: Waiting for pending navigations...
+[1551097527.737][INFO]: Done waiting for pending navigations. Status: ok
+[1551097527.750][INFO]: Waiting for pending navigations...
+[1551097527.751][INFO]: Done waiting for pending navigations. Status: ok
+[1551097527.751][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE GetElementText "https://searchitoperations.techtarget.com/.../IT-automation"
+[1551097527.754][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND FindChildElement {
+   "id": "0.7064541067536054-5",
+   "using": "class name",
+   "value": "iUh30"
+}
+[1551097527.754][INFO]: Waiting for pending navigations...
+[1551097527.754][INFO]: Done waiting for pending navigations. Status: ok
+[1551097527.764][INFO]: Waiting for pending navigations...
+[1551097527.764][INFO]: Done waiting for pending navigations. Status: ok
+[1551097527.764][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE FindChildElement {
+   "ELEMENT": "0.7064541067536054-15"
+}
+[1551097527.766][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND GetElementText {
+   "id": "0.7064541067536054-15"
+}
+[1551097527.766][INFO]: Waiting for pending navigations...
+[1551097527.767][INFO]: Done waiting for pending navigations. Status: ok
+[1551097527.780][INFO]: Waiting for pending navigations...
+[1551097527.781][INFO]: Done waiting for pending navigations. Status: ok
+[1551097527.781][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE GetElementText "https://www.automationanywhere.com/"
+[1551097527.784][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND FindChildElement {
+   "id": "0.7064541067536054-6",
+   "using": "class name",
+   "value": "iUh30"
+}
+[1551097527.784][INFO]: Waiting for pending navigations...
+[1551097527.784][INFO]: Done waiting for pending navigations. Status: ok
+[1551097527.794][INFO]: Waiting for pending navigations...
+[1551097527.794][INFO]: Done waiting for pending navigations. Status: ok
+[1551097527.794][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE FindChildElement {
+   "ELEMENT": "0.7064541067536054-16"
+}
+[1551097527.796][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND GetElementText {
+   "id": "0.7064541067536054-16"
+}
+[1551097527.797][INFO]: Waiting for pending navigations...
+[1551097527.797][INFO]: Done waiting for pending navigations. Status: ok
+[1551097527.810][INFO]: Waiting for pending navigations...
+[1551097527.811][INFO]: Done waiting for pending navigations. Status: ok
+[1551097527.811][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE GetElementText "https://www.automation.be/"
+[1551097527.815][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND FindChildElement {
+   "id": "0.7064541067536054-7",
+   "using": "class name",
+   "value": "iUh30"
+}
+[1551097527.815][INFO]: Waiting for pending navigations...
+[1551097527.815][INFO]: Done waiting for pending navigations. Status: ok
+[1551097527.825][INFO]: Waiting for pending navigations...
+[1551097527.825][INFO]: Done waiting for pending navigations. Status: ok
+[1551097527.825][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE FindChildElement {
+   "ELEMENT": "0.7064541067536054-17"
+}
+[1551097527.827][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND GetElementText {
+   "id": "0.7064541067536054-17"
+}
+[1551097527.827][INFO]: Waiting for pending navigations...
+[1551097527.828][INFO]: Done waiting for pending navigations. Status: ok
+[1551097527.841][INFO]: Waiting for pending navigations...
+[1551097527.841][INFO]: Done waiting for pending navigations. Status: ok
+[1551097527.841][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE GetElementText "https://www.redhat.com/en/topics/automation"
+[1551097527.844][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND FindChildElement {
+   "id": "0.7064541067536054-8",
+   "using": "class name",
+   "value": "iUh30"
+}
+[1551097527.844][INFO]: Waiting for pending navigations...
+[1551097527.844][INFO]: Done waiting for pending navigations. Status: ok
+[1551097527.854][INFO]: Waiting for pending navigations...
+[1551097527.854][INFO]: Done waiting for pending navigations. Status: ok
+[1551097527.854][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE FindChildElement {
+   "ELEMENT": "0.7064541067536054-18"
+}
+[1551097527.856][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND GetElementText {
+   "id": "0.7064541067536054-18"
+}
+[1551097527.856][INFO]: Waiting for pending navigations...
+[1551097527.857][INFO]: Done waiting for pending navigations. Status: ok
+[1551097527.870][INFO]: Waiting for pending navigations...
+[1551097527.870][INFO]: Done waiting for pending navigations. Status: ok
+[1551097527.870][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE GetElementText "https://pentairpool.com/en/products/automation"
+[1551097527.874][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND FindChildElement {
+   "id": "0.7064541067536054-9",
+   "using": "class name",
+   "value": "iUh30"
+}
+[1551097527.874][INFO]: Waiting for pending navigations...
+[1551097527.874][INFO]: Done waiting for pending navigations. Status: ok
+[1551097527.884][INFO]: Waiting for pending navigations...
+[1551097527.885][INFO]: Done waiting for pending navigations. Status: ok
+[1551097527.885][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE FindChildElement {
+   "ELEMENT": "0.7064541067536054-19"
+}
+[1551097527.886][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND GetElementText {
+   "id": "0.7064541067536054-19"
+}
+[1551097527.886][INFO]: Waiting for pending navigations...
+[1551097527.887][INFO]: Done waiting for pending navigations. Status: ok
+[1551097527.900][INFO]: Waiting for pending navigations...
+[1551097527.900][INFO]: Done waiting for pending navigations. Status: ok
+[1551097527.900][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE GetElementText "https://mailchimp.com/help/create-an-automation/"
+[1551097527.904][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND FindChildElement {
+   "id": "0.7064541067536054-10",
+   "using": "class name",
+   "value": "iUh30"
+}
+[1551097527.904][INFO]: Waiting for pending navigations...
+[1551097527.904][INFO]: Done waiting for pending navigations. Status: ok
+[1551097527.914][INFO]: Waiting for pending navigations...
+[1551097527.915][INFO]: Done waiting for pending navigations. Status: ok
+[1551097527.915][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE FindChildElement {
+   "ELEMENT": "0.7064541067536054-20"
+}
+[1551097527.917][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND GetElementText {
+   "id": "0.7064541067536054-20"
+}
+[1551097527.917][INFO]: Waiting for pending navigations...
+[1551097527.917][INFO]: Done waiting for pending navigations. Status: ok
+[1551097527.930][INFO]: Waiting for pending navigations...
+[1551097527.931][INFO]: Done waiting for pending navigations. Status: ok
+[1551097527.931][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE GetElementText "https://mailchimp.com/automate/"
+[1551097527.934][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND FindChildElement {
+   "id": "0.7064541067536054-11",
+   "using": "class name",
+   "value": "iUh30"
+}
+[1551097527.934][INFO]: Waiting for pending navigations...
+[1551097527.934][INFO]: Done waiting for pending navigations. Status: ok
+[1551097527.944][INFO]: Waiting for pending navigations...
+[1551097527.944][INFO]: Done waiting for pending navigations. Status: ok
+[1551097527.944][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE FindChildElement {
+   "ELEMENT": "0.7064541067536054-21"
+}
+[1551097527.947][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND GetElementText {
+   "id": "0.7064541067536054-21"
+}
+[1551097527.947][INFO]: Waiting for pending navigations...
+[1551097527.947][INFO]: Done waiting for pending navigations. Status: ok
+[1551097527.961][INFO]: Waiting for pending navigations...
+[1551097527.961][INFO]: Done waiting for pending navigations. Status: ok
+[1551097527.961][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE GetElementText "https://www.ibm.com/automation"
+[1551097527.964][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND FindElement {
+   "using": "id",
+   "value": "pnnext"
+}
+[1551097527.964][INFO]: Waiting for pending navigations...
+[1551097527.964][INFO]: Done waiting for pending navigations. Status: ok
+[1551097527.970][INFO]: Waiting for pending navigations...
+[1551097527.971][INFO]: Done waiting for pending navigations. Status: ok
+[1551097527.971][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE FindElement {
+   "ELEMENT": "0.7064541067536054-22"
+}
+[1551097527.974][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND ClickElement {
+   "id": "0.7064541067536054-22"
+}
+[1551097527.974][INFO]: Waiting for pending navigations...
+[1551097527.974][INFO]: Done waiting for pending navigations. Status: ok
+[1551097528.050][INFO]: Waiting for pending navigations...
+[1551097528.939][INFO]: Done waiting for pending navigations. Status: ok
+[1551097528.939][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE ClickElement
+[1551097528.942][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND FindElement {
+   "using": "id",
+   "value": "rso"
+}
+[1551097528.942][INFO]: Waiting for pending navigations...
+[1551097528.943][INFO]: Done waiting for pending navigations. Status: ok
+[1551097528.950][INFO]: Waiting for pending navigations...
+[1551097528.952][INFO]: Done waiting for pending navigations. Status: ok
+[1551097528.952][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE FindElement {
+   "ELEMENT": "0.848281343885489-1"
+}
+[1551097528.957][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND FindChildElements {
+   "id": "0.848281343885489-1",
+   "using": "css selector",
+   "value": ".g"
+}
+[1551097528.957][INFO]: Waiting for pending navigations...
+[1551097529.013][INFO]: Done waiting for pending navigations. Status: ok
+[1551097529.023][INFO]: Waiting for pending navigations...
+[1551097529.024][INFO]: Done waiting for pending navigations. Status: ok
+[1551097529.024][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE FindChildElements [ {
+   "ELEMENT": "0.848281343885489-2"
+}, {
+   "ELEMENT": "0.848281343885489-3"
+}, {
+   "ELEMENT": "0.848281343885489-4"
+}, {
+   "ELEMENT": "0.848281343885489-5"
+}, {
+   "ELEMENT": "0.848281343885489-6"
+}, {
+   "ELEMENT": "0.848281343885489-7"
+}, {
+   "ELEMENT": "0.848281343885489-8"
+}, {
+   "ELEMENT": "0.848281343885489-9"
+}, {
+   "ELEMENT": "0.848281343885489-10"
+}, {
+   "ELEMENT": "0.848281343885489-11"
+} ]
+[1551097529.039][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND FindChildElement {
+   "id": "0.848281343885489-2",
+   "using": "class name",
+   "value": "iUh30"
+}
+[1551097529.039][INFO]: Waiting for pending navigations...
+[1551097529.046][INFO]: Done waiting for pending navigations. Status: ok
+[1551097529.056][INFO]: Waiting for pending navigations...
+[1551097529.057][INFO]: Done waiting for pending navigations. Status: ok
+[1551097529.057][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE FindChildElement {
+   "ELEMENT": "0.848281343885489-12"
+}
+[1551097529.059][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND GetElementText {
+   "id": "0.848281343885489-12"
+}
+[1551097529.059][INFO]: Waiting for pending navigations...
+[1551097529.059][INFO]: Done waiting for pending navigations. Status: ok
+[1551097529.072][INFO]: Waiting for pending navigations...
+[1551097529.073][INFO]: Done waiting for pending navigations. Status: ok
+[1551097529.073][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE GetElementText "https://www.helpsystems.com/.../automated-operations-5-ben..."
+[1551097529.076][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND FindChildElement {
+   "id": "0.848281343885489-3",
+   "using": "class name",
+   "value": "iUh30"
+}
+[1551097529.076][INFO]: Waiting for pending navigations...
+[1551097529.076][INFO]: Done waiting for pending navigations. Status: ok
+[1551097529.086][INFO]: Waiting for pending navigations...
+[1551097529.086][INFO]: Done waiting for pending navigations. Status: ok
+[1551097529.086][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE FindChildElement {
+   "ELEMENT": "0.848281343885489-13"
+}
+[1551097529.088][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND GetElementText {
+   "id": "0.848281343885489-13"
+}
+[1551097529.088][INFO]: Waiting for pending navigations...
+[1551097529.088][INFO]: Done waiting for pending navigations. Status: ok
+[1551097529.101][INFO]: Waiting for pending navigations...
+[1551097529.102][INFO]: Done waiting for pending navigations. Status: ok
+[1551097529.102][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE GetElementText "https://www.helpsystems.com/products/automate"
+[1551097529.105][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND FindChildElement {
+   "id": "0.848281343885489-4",
+   "using": "class name",
+   "value": "iUh30"
+}
+[1551097529.105][INFO]: Waiting for pending navigations...
+[1551097529.105][INFO]: Done waiting for pending navigations. Status: ok
+[1551097529.115][INFO]: Waiting for pending navigations...
+[1551097529.115][INFO]: Done waiting for pending navigations. Status: ok
+[1551097529.115][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE FindChildElement {
+   "ELEMENT": "0.848281343885489-14"
+}
+[1551097529.117][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND GetElementText {
+   "id": "0.848281343885489-14"
+}
+[1551097529.117][INFO]: Waiting for pending navigations...
+[1551097529.117][INFO]: Done waiting for pending navigations. Status: ok
+[1551097529.130][INFO]: Waiting for pending navigations...
+[1551097529.134][INFO]: Done waiting for pending navigations. Status: ok
+[1551097529.134][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE GetElementText "https://corsi.unibo.it/2cycle/AutomationEngineering"
+[1551097529.137][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND FindChildElement {
+   "id": "0.848281343885489-5",
+   "using": "class name",
+   "value": "iUh30"
+}
+[1551097529.137][INFO]: Waiting for pending navigations...
+[1551097529.146][INFO]: Done waiting for pending navigations. Status: ok
+[1551097529.162][INFO]: Waiting for pending navigations...
+[1551097529.163][INFO]: Done waiting for pending navigations. Status: ok
+[1551097529.163][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE FindChildElement {
+   "ELEMENT": "0.848281343885489-15"
+}
+[1551097529.165][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND GetElementText {
+   "id": "0.848281343885489-15"
+}
+[1551097529.165][INFO]: Waiting for pending navigations...
+[1551097529.166][INFO]: Done waiting for pending navigations. Status: ok
+[1551097529.179][INFO]: Waiting for pending navigations...
+[1551097529.180][INFO]: Done waiting for pending navigations. Status: ok
+[1551097529.180][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE GetElementText "https://marketplace.atlassian.com/apps/.../automation-for-jira"
+[1551097529.183][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND FindChildElement {
+   "id": "0.848281343885489-6",
+   "using": "class name",
+   "value": "iUh30"
+}
+[1551097529.183][INFO]: Waiting for pending navigations...
+[1551097529.184][INFO]: Done waiting for pending navigations. Status: ok
+[1551097529.193][INFO]: Waiting for pending navigations...
+[1551097529.194][INFO]: Done waiting for pending navigations. Status: ok
+[1551097529.194][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE FindChildElement {
+   "ELEMENT": "0.848281343885489-16"
+}
+[1551097529.195][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND GetElementText {
+   "id": "0.848281343885489-16"
+}
+[1551097529.196][INFO]: Waiting for pending navigations...
+[1551097529.196][INFO]: Done waiting for pending navigations. Status: ok
+[1551097529.209][INFO]: Waiting for pending navigations...
+[1551097529.209][INFO]: Done waiting for pending navigations. Status: ok
+[1551097529.209][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE GetElementText "https://www.mckinsey.com/.../the-automation-imperative"
+[1551097529.212][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND FindChildElement {
+   "id": "0.848281343885489-7",
+   "using": "class name",
+   "value": "iUh30"
+}
+[1551097529.212][INFO]: Waiting for pending navigations...
+[1551097529.212][INFO]: Done waiting for pending navigations. Status: ok
+[1551097529.222][INFO]: Waiting for pending navigations...
+[1551097529.222][INFO]: Done waiting for pending navigations. Status: ok
+[1551097529.222][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE FindChildElement {
+   "ELEMENT": "0.848281343885489-17"
+}
+[1551097529.224][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND GetElementText {
+   "id": "0.848281343885489-17"
+}
+[1551097529.224][INFO]: Waiting for pending navigations...
+[1551097529.225][INFO]: Done waiting for pending navigations. Status: ok
+[1551097529.237][INFO]: Waiting for pending navigations...
+[1551097529.238][INFO]: Done waiting for pending navigations. Status: ok
+[1551097529.238][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE GetElementText "https://www.automationanywhereuniversity.com/"
+[1551097529.241][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND FindChildElement {
+   "id": "0.848281343885489-8",
+   "using": "class name",
+   "value": "iUh30"
+}
+[1551097529.241][INFO]: Waiting for pending navigations...
+[1551097529.241][INFO]: Done waiting for pending navigations. Status: ok
+[1551097529.251][INFO]: Waiting for pending navigations...
+[1551097529.252][INFO]: Done waiting for pending navigations. Status: ok
+[1551097529.252][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE FindChildElement {
+   "ELEMENT": "0.848281343885489-18"
+}
+[1551097529.253][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND GetElementText {
+   "id": "0.848281343885489-18"
+}
+[1551097529.253][INFO]: Waiting for pending navigations...
+[1551097529.254][INFO]: Done waiting for pending navigations. Status: ok
+[1551097529.267][INFO]: Waiting for pending navigations...
+[1551097529.268][INFO]: Done waiting for pending navigations. Status: ok
+[1551097529.268][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE GetElementText "https://www.home-assistant.io/components/automation/"
+[1551097529.271][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND FindChildElement {
+   "id": "0.848281343885489-9",
+   "using": "class name",
+   "value": "iUh30"
+}
+[1551097529.271][INFO]: Waiting for pending navigations...
+[1551097529.271][INFO]: Done waiting for pending navigations. Status: ok
+[1551097529.281][INFO]: Waiting for pending navigations...
+[1551097529.281][INFO]: Done waiting for pending navigations. Status: ok
+[1551097529.281][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE FindChildElement {
+   "ELEMENT": "0.848281343885489-19"
+}
+[1551097529.283][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND GetElementText {
+   "id": "0.848281343885489-19"
+}
+[1551097529.283][INFO]: Waiting for pending navigations...
+[1551097529.284][INFO]: Done waiting for pending navigations. Status: ok
+[1551097529.297][INFO]: Waiting for pending navigations...
+[1551097529.298][INFO]: Done waiting for pending navigations. Status: ok
+[1551097529.298][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE GetElementText "https://www.ivanti.com/products/automation"
+[1551097529.301][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND FindChildElement {
+   "id": "0.848281343885489-10",
+   "using": "class name",
+   "value": "iUh30"
+}
+[1551097529.301][INFO]: Waiting for pending navigations...
+[1551097529.301][INFO]: Done waiting for pending navigations. Status: ok
+[1551097529.311][INFO]: Waiting for pending navigations...
+[1551097529.311][INFO]: Done waiting for pending navigations. Status: ok
+[1551097529.311][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE FindChildElement {
+   "ELEMENT": "0.848281343885489-20"
+}
+[1551097529.313][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND GetElementText {
+   "id": "0.848281343885489-20"
+}
+[1551097529.313][INFO]: Waiting for pending navigations...
+[1551097529.313][INFO]: Done waiting for pending navigations. Status: ok
+[1551097529.326][INFO]: Waiting for pending navigations...
+[1551097529.327][INFO]: Done waiting for pending navigations. Status: ok
+[1551097529.327][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE GetElementText "https://www.apstemps.com/"
+[1551097529.330][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND FindChildElement {
+   "id": "0.848281343885489-11",
+   "using": "class name",
+   "value": "iUh30"
+}
+[1551097529.330][INFO]: Waiting for pending navigations...
+[1551097529.330][INFO]: Done waiting for pending navigations. Status: ok
+[1551097529.340][INFO]: Waiting for pending navigations...
+[1551097529.340][INFO]: Done waiting for pending navigations. Status: ok
+[1551097529.340][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE FindChildElement {
+   "ELEMENT": "0.848281343885489-21"
+}
+[1551097529.342][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND GetElementText {
+   "id": "0.848281343885489-21"
+}
+[1551097529.342][INFO]: Waiting for pending navigations...
+[1551097529.343][INFO]: Done waiting for pending navigations. Status: ok
+[1551097529.356][INFO]: Waiting for pending navigations...
+[1551097529.357][INFO]: Done waiting for pending navigations. Status: ok
+[1551097529.357][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE GetElementText "https://convertkit.com/features/automations/"
+[1551097529.360][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND FindElement {
+   "using": "id",
+   "value": "pnnext"
+}
+[1551097529.360][INFO]: Waiting for pending navigations...
+[1551097529.360][INFO]: Done waiting for pending navigations. Status: ok
+[1551097529.365][INFO]: Waiting for pending navigations...
+[1551097529.366][INFO]: Done waiting for pending navigations. Status: ok
+[1551097529.366][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE FindElement {
+   "ELEMENT": "0.848281343885489-22"
+}
+[1551097529.369][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND ClickElement {
+   "id": "0.848281343885489-22"
+}
+[1551097529.369][INFO]: Waiting for pending navigations...
+[1551097529.369][INFO]: Done waiting for pending navigations. Status: ok
+[1551097529.438][INFO]: Waiting for pending navigations...
+[1551097530.336][INFO]: Done waiting for pending navigations. Status: ok
+[1551097530.336][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE ClickElement
+[1551097530.339][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND FindElement {
+   "using": "id",
+   "value": "rso"
+}
+[1551097530.339][INFO]: Waiting for pending navigations...
+[1551097530.340][INFO]: Done waiting for pending navigations. Status: ok
+[1551097530.354][INFO]: Waiting for pending navigations...
+[1551097530.417][INFO]: Done waiting for pending navigations. Status: ok
+[1551097530.417][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE FindElement {
+   "ELEMENT": "0.26701939600118063-1"
+}
+[1551097530.420][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND FindChildElements {
+   "id": "0.26701939600118063-1",
+   "using": "css selector",
+   "value": ".g"
+}
+[1551097530.420][INFO]: Waiting for pending navigations...
+[1551097530.421][INFO]: Done waiting for pending navigations. Status: ok
+[1551097530.431][INFO]: Waiting for pending navigations...
+[1551097530.431][INFO]: Done waiting for pending navigations. Status: ok
+[1551097530.431][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE FindChildElements [ {
+   "ELEMENT": "0.26701939600118063-2"
+}, {
+   "ELEMENT": "0.26701939600118063-3"
+}, {
+   "ELEMENT": "0.26701939600118063-4"
+}, {
+   "ELEMENT": "0.26701939600118063-5"
+}, {
+   "ELEMENT": "0.26701939600118063-6"
+}, {
+   "ELEMENT": "0.26701939600118063-7"
+}, {
+   "ELEMENT": "0.26701939600118063-8"
+}, {
+   "ELEMENT": "0.26701939600118063-9"
+}, {
+   "ELEMENT": "0.26701939600118063-10"
+}, {
+   "ELEMENT": "0.26701939600118063-11"
+} ]
+[1551097530.434][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND FindChildElement {
+   "id": "0.26701939600118063-2",
+   "using": "class name",
+   "value": "iUh30"
+}
+[1551097530.434][INFO]: Waiting for pending navigations...
+[1551097530.435][INFO]: Done waiting for pending navigations. Status: ok
+[1551097530.444][INFO]: Waiting for pending navigations...
+[1551097530.445][INFO]: Done waiting for pending navigations. Status: ok
+[1551097530.445][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE FindChildElement {
+   "ELEMENT": "0.26701939600118063-12"
+}
+[1551097530.447][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND GetElementText {
+   "id": "0.26701939600118063-12"
+}
+[1551097530.447][INFO]: Waiting for pending navigations...
+[1551097530.448][INFO]: Done waiting for pending navigations. Status: ok
+[1551097530.464][INFO]: Waiting for pending navigations...
+[1551097530.465][INFO]: Done waiting for pending navigations. Status: ok
+[1551097530.465][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE GetElementText "https://www.automateshow.com/"
+[1551097530.468][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND FindChildElement {
+   "id": "0.26701939600118063-3",
+   "using": "class name",
+   "value": "iUh30"
+}
+[1551097530.468][INFO]: Waiting for pending navigations...
+[1551097530.468][INFO]: Done waiting for pending navigations. Status: ok
+[1551097530.478][INFO]: Waiting for pending navigations...
+[1551097530.479][INFO]: Done waiting for pending navigations. Status: ok
+[1551097530.479][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE FindChildElement {
+   "ELEMENT": "0.26701939600118063-13"
+}
+[1551097530.481][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND GetElementText {
+   "id": "0.26701939600118063-13"
+}
+[1551097530.481][INFO]: Waiting for pending navigations...
+[1551097530.481][INFO]: Done waiting for pending navigations. Status: ok
+[1551097530.494][INFO]: Waiting for pending navigations...
+[1551097530.495][INFO]: Done waiting for pending navigations. Status: ok
+[1551097530.495][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE GetElementText "https://www.easyfairs.com/...automation.../automation-den-b..."
+[1551097530.498][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND FindChildElement {
+   "id": "0.26701939600118063-4",
+   "using": "class name",
+   "value": "iUh30"
+}
+[1551097530.498][INFO]: Waiting for pending navigations...
+[1551097530.498][INFO]: Done waiting for pending navigations. Status: ok
+[1551097530.508][INFO]: Waiting for pending navigations...
+[1551097530.509][INFO]: Done waiting for pending navigations. Status: ok
+[1551097530.509][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE FindChildElement {
+   "ELEMENT": "0.26701939600118063-14"
+}
+[1551097530.511][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND GetElementText {
+   "id": "0.26701939600118063-14"
+}
+[1551097530.511][INFO]: Waiting for pending navigations...
+[1551097530.511][INFO]: Done waiting for pending navigations. Status: ok
+[1551097530.524][INFO]: Waiting for pending navigations...
+[1551097530.527][INFO]: Done waiting for pending navigations. Status: ok
+[1551097530.527][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE GetElementText "https://www.chef.io/automate/"
+[1551097530.537][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND FindChildElement {
+   "id": "0.26701939600118063-5",
+   "using": "class name",
+   "value": "iUh30"
+}
+[1551097530.537][INFO]: Waiting for pending navigations...
+[1551097530.550][INFO]: Done waiting for pending navigations. Status: ok
+[1551097530.561][INFO]: Waiting for pending navigations...
+[1551097530.562][INFO]: Done waiting for pending navigations. Status: ok
+[1551097530.563][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE FindChildElement {
+   "ELEMENT": "0.26701939600118063-15"
+}
+[1551097530.564][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND GetElementText {
+   "id": "0.26701939600118063-15"
+}
+[1551097530.564][INFO]: Waiting for pending navigations...
+[1551097530.565][INFO]: Done waiting for pending navigations. Status: ok
+[1551097530.578][INFO]: Waiting for pending navigations...
+[1551097530.578][INFO]: Done waiting for pending navigations. Status: ok
+[1551097530.578][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE GetElementText "https://www.ansible.com/overview/it-automation"
+[1551097530.581][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND FindChildElement {
+   "id": "0.26701939600118063-6",
+   "using": "class name",
+   "value": "iUh30"
+}
+[1551097530.581][INFO]: Waiting for pending navigations...
+[1551097530.581][INFO]: Done waiting for pending navigations. Status: ok
+[1551097530.591][INFO]: Waiting for pending navigations...
+[1551097530.592][INFO]: Done waiting for pending navigations. Status: ok
+[1551097530.592][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE FindChildElement {
+   "ELEMENT": "0.26701939600118063-16"
+}
+[1551097530.594][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND GetElementText {
+   "id": "0.26701939600118063-16"
+}
+[1551097530.594][INFO]: Waiting for pending navigations...
+[1551097530.594][INFO]: Done waiting for pending navigations. Status: ok
+[1551097530.609][INFO]: Waiting for pending navigations...
+[1551097530.610][INFO]: Done waiting for pending navigations. Status: ok
+[1551097530.610][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE GetElementText "https://beckhoff.com/"
+[1551097530.614][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND FindChildElement {
+   "id": "0.26701939600118063-7",
+   "using": "class name",
+   "value": "iUh30"
+}
+[1551097530.614][INFO]: Waiting for pending navigations...
+[1551097530.619][INFO]: Done waiting for pending navigations. Status: ok
+[1551097530.631][INFO]: Waiting for pending navigations...
+[1551097530.632][INFO]: Done waiting for pending navigations. Status: ok
+[1551097530.632][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE FindChildElement {
+   "ELEMENT": "0.26701939600118063-17"
+}
+[1551097530.636][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND GetElementText {
+   "id": "0.26701939600118063-17"
+}
+[1551097530.636][INFO]: Waiting for pending navigations...
+[1551097530.636][INFO]: Done waiting for pending navigations. Status: ok
+[1551097530.650][INFO]: Waiting for pending navigations...
+[1551097530.650][INFO]: Done waiting for pending navigations. Status: ok
+[1551097530.650][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE GetElementText "https://economictimes.indiatimes.com › ... › Banking"
+[1551097530.653][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND FindChildElement {
+   "id": "0.26701939600118063-8",
+   "using": "class name",
+   "value": "iUh30"
+}
+[1551097530.653][INFO]: Waiting for pending navigations...
+[1551097530.653][INFO]: Done waiting for pending navigations. Status: ok
+[1551097530.663][INFO]: Waiting for pending navigations...
+[1551097530.664][INFO]: Done waiting for pending navigations. Status: ok
+[1551097530.664][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE FindChildElement {
+   "ELEMENT": "0.26701939600118063-18"
+}
+[1551097530.666][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND GetElementText {
+   "id": "0.26701939600118063-18"
+}
+[1551097530.666][INFO]: Waiting for pending navigations...
+[1551097530.666][INFO]: Done waiting for pending navigations. Status: ok
+[1551097530.679][INFO]: Waiting for pending navigations...
+[1551097530.680][INFO]: Done waiting for pending navigations. Status: ok
+[1551097530.680][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE GetElementText "https://a9t9.com/kantu/home/welcome?b=chrome"
+[1551097530.683][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND FindChildElement {
+   "id": "0.26701939600118063-9",
+   "using": "class name",
+   "value": "iUh30"
+}
+[1551097530.683][INFO]: Waiting for pending navigations...
+[1551097530.683][INFO]: Done waiting for pending navigations. Status: ok
+[1551097530.693][INFO]: Waiting for pending navigations...
+[1551097530.693][INFO]: Done waiting for pending navigations. Status: ok
+[1551097530.694][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE FindChildElement {
+   "ELEMENT": "0.26701939600118063-19"
+}
+[1551097530.701][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND GetElementText {
+   "id": "0.26701939600118063-19"
+}
+[1551097530.701][INFO]: Waiting for pending navigations...
+[1551097530.701][INFO]: Done waiting for pending navigations. Status: ok
+[1551097530.714][INFO]: Waiting for pending navigations...
+[1551097530.715][INFO]: Done waiting for pending navigations. Status: ok
+[1551097530.715][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE GetElementText "https://automationalley.com/"
+[1551097530.725][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND FindChildElement {
+   "id": "0.26701939600118063-10",
+   "using": "class name",
+   "value": "iUh30"
+}
+[1551097530.725][INFO]: Waiting for pending navigations...
+[1551097530.726][INFO]: Done waiting for pending navigations. Status: ok
+[1551097530.735][INFO]: Waiting for pending navigations...
+[1551097530.736][INFO]: Done waiting for pending navigations. Status: ok
+[1551097530.736][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE FindChildElement {
+   "ELEMENT": "0.26701939600118063-20"
+}
+[1551097530.738][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND GetElementText {
+   "id": "0.26701939600118063-20"
+}
+[1551097530.738][INFO]: Waiting for pending navigations...
+[1551097530.738][INFO]: Done waiting for pending navigations. Status: ok
+[1551097530.752][INFO]: Waiting for pending navigations...
+[1551097530.752][INFO]: Done waiting for pending navigations. Status: ok
+[1551097530.752][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE GetElementText "https://www.merriam-webster.com/dictionary/automation"
+[1551097530.757][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND FindChildElement {
+   "id": "0.26701939600118063-11",
+   "using": "class name",
+   "value": "iUh30"
+}
+[1551097530.757][INFO]: Waiting for pending navigations...
+[1551097530.757][INFO]: Done waiting for pending navigations. Status: ok
+[1551097530.767][INFO]: Waiting for pending navigations...
+[1551097530.768][INFO]: Done waiting for pending navigations. Status: ok
+[1551097530.768][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE FindChildElement {
+   "ELEMENT": "0.26701939600118063-21"
+}
+[1551097530.769][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND GetElementText {
+   "id": "0.26701939600118063-21"
+}
+[1551097530.769][INFO]: Waiting for pending navigations...
+[1551097530.770][INFO]: Done waiting for pending navigations. Status: ok
+[1551097530.783][INFO]: Waiting for pending navigations...
+[1551097530.784][INFO]: Done waiting for pending navigations. Status: ok
+[1551097530.784][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE GetElementText "www.automationinc.com/"
+[1551097530.786][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND FindElement {
+   "using": "id",
+   "value": "pnnext"
+}
+[1551097530.786][INFO]: Waiting for pending navigations...
+[1551097530.786][INFO]: Done waiting for pending navigations. Status: ok
+[1551097530.792][INFO]: Waiting for pending navigations...
+[1551097530.792][INFO]: Done waiting for pending navigations. Status: ok
+[1551097530.792][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE FindElement {
+   "ELEMENT": "0.26701939600118063-22"
+}
+[1551097530.795][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND ClickElement {
+   "id": "0.26701939600118063-22"
+}
+[1551097530.795][INFO]: Waiting for pending navigations...
+[1551097530.795][INFO]: Done waiting for pending navigations. Status: ok
+[1551097530.865][INFO]: Waiting for pending navigations...
+[1551097531.791][INFO]: Done waiting for pending navigations. Status: ok
+[1551097531.791][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE ClickElement
+[1551097531.794][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND FindElement {
+   "using": "id",
+   "value": "rso"
+}
+[1551097531.794][INFO]: Waiting for pending navigations...
+[1551097531.795][INFO]: Done waiting for pending navigations. Status: ok
+[1551097531.801][INFO]: Waiting for pending navigations...
+[1551097531.801][INFO]: Done waiting for pending navigations. Status: ok
+[1551097531.801][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE FindElement {
+   "ELEMENT": "0.357873190200364-1"
+}
+[1551097531.804][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND FindChildElements {
+   "id": "0.357873190200364-1",
+   "using": "css selector",
+   "value": ".g"
+}
+[1551097531.804][INFO]: Waiting for pending navigations...
+[1551097531.805][INFO]: Done waiting for pending navigations. Status: ok
+[1551097531.815][INFO]: Waiting for pending navigations...
+[1551097531.815][INFO]: Done waiting for pending navigations. Status: ok
+[1551097531.815][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE FindChildElements [ {
+   "ELEMENT": "0.357873190200364-2"
+}, {
+   "ELEMENT": "0.357873190200364-3"
+}, {
+   "ELEMENT": "0.357873190200364-4"
+}, {
+   "ELEMENT": "0.357873190200364-5"
+}, {
+   "ELEMENT": "0.357873190200364-6"
+}, {
+   "ELEMENT": "0.357873190200364-7"
+}, {
+   "ELEMENT": "0.357873190200364-8"
+}, {
+   "ELEMENT": "0.357873190200364-9"
+}, {
+   "ELEMENT": "0.357873190200364-10"
+}, {
+   "ELEMENT": "0.357873190200364-11"
+} ]
+[1551097531.819][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND FindChildElement {
+   "id": "0.357873190200364-2",
+   "using": "class name",
+   "value": "iUh30"
+}
+[1551097531.819][INFO]: Waiting for pending navigations...
+[1551097531.820][INFO]: Done waiting for pending navigations. Status: ok
+[1551097531.830][INFO]: Waiting for pending navigations...
+[1551097531.830][INFO]: Done waiting for pending navigations. Status: ok
+[1551097531.830][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE FindChildElement {
+   "ELEMENT": "0.357873190200364-12"
+}
+[1551097531.832][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND GetElementText {
+   "id": "0.357873190200364-12"
+}
+[1551097531.832][INFO]: Waiting for pending navigations...
+[1551097531.833][INFO]: Done waiting for pending navigations. Status: ok
+[1551097531.846][INFO]: Waiting for pending navigations...
+[1551097531.847][INFO]: Done waiting for pending navigations. Status: ok
+[1551097531.847][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE GetElementText "https://getcruise.com/careers"
+[1551097531.850][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND FindChildElement {
+   "id": "0.357873190200364-3",
+   "using": "class name",
+   "value": "iUh30"
+}
+[1551097531.850][INFO]: Waiting for pending navigations...
+[1551097531.850][INFO]: Done waiting for pending navigations. Status: ok
+[1551097531.860][INFO]: Waiting for pending navigations...
+[1551097531.860][INFO]: Done waiting for pending navigations. Status: ok
+[1551097531.860][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE FindChildElement {
+   "ELEMENT": "0.357873190200364-13"
+}
+[1551097531.862][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND GetElementText {
+   "id": "0.357873190200364-13"
+}
+[1551097531.862][INFO]: Waiting for pending navigations...
+[1551097531.863][INFO]: Done waiting for pending navigations. Status: ok
+[1551097531.876][INFO]: Waiting for pending navigations...
+[1551097531.876][INFO]: Done waiting for pending navigations. Status: ok
+[1551097531.876][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE GetElementText "https://azure.microsoft.com/en-us/services/automation/"
+[1551097531.880][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND FindChildElement {
+   "id": "0.357873190200364-4",
+   "using": "class name",
+   "value": "iUh30"
+}
+[1551097531.880][INFO]: Waiting for pending navigations...
+[1551097531.881][INFO]: Done waiting for pending navigations. Status: ok
+[1551097531.890][INFO]: Waiting for pending navigations...
+[1551097531.890][INFO]: Done waiting for pending navigations. Status: ok
+[1551097531.890][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE FindChildElement {
+   "ELEMENT": "0.357873190200364-14"
+}
+[1551097531.892][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND GetElementText {
+   "id": "0.357873190200364-14"
+}
+[1551097531.892][INFO]: Waiting for pending navigations...
+[1551097531.893][INFO]: Done waiting for pending navigations. Status: ok
+[1551097531.906][INFO]: Waiting for pending navigations...
+[1551097531.906][INFO]: Done waiting for pending navigations. Status: ok
+[1551097531.906][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE GetElementText "https://www.elmia.se/en/automation/"
+[1551097531.909][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND FindChildElement {
+   "id": "0.357873190200364-5",
+   "using": "class name",
+   "value": "iUh30"
+}
+[1551097531.909][INFO]: Waiting for pending navigations...
+[1551097531.909][INFO]: Done waiting for pending navigations. Status: ok
+[1551097531.919][INFO]: Waiting for pending navigations...
+[1551097531.919][INFO]: Done waiting for pending navigations. Status: ok
+[1551097531.919][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE FindChildElement {
+   "ELEMENT": "0.357873190200364-15"
+}
+[1551097531.921][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND GetElementText {
+   "id": "0.357873190200364-15"
+}
+[1551097531.921][INFO]: Waiting for pending navigations...
+[1551097531.922][INFO]: Done waiting for pending navigations. Status: ok
+[1551097531.935][INFO]: Waiting for pending navigations...
+[1551097531.935][INFO]: Done waiting for pending navigations. Status: ok
+[1551097531.935][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE GetElementText "www.preciseautomation.com/"
+[1551097531.938][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND FindChildElement {
+   "id": "0.357873190200364-6",
+   "using": "class name",
+   "value": "iUh30"
+}
+[1551097531.938][INFO]: Waiting for pending navigations...
+[1551097531.938][INFO]: Done waiting for pending navigations. Status: ok
+[1551097531.948][INFO]: Waiting for pending navigations...
+[1551097531.948][INFO]: Done waiting for pending navigations. Status: ok
+[1551097531.948][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE FindChildElement {
+   "ELEMENT": "0.357873190200364-16"
+}
+[1551097531.951][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND GetElementText {
+   "id": "0.357873190200364-16"
+}
+[1551097531.951][INFO]: Waiting for pending navigations...
+[1551097531.952][INFO]: Done waiting for pending navigations. Status: ok
+[1551097531.965][INFO]: Waiting for pending navigations...
+[1551097531.967][INFO]: Done waiting for pending navigations. Status: ok
+[1551097531.967][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE GetElementText "https://trailhead.salesforce.com/...automation/process_whicht..."
+[1551097531.974][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND FindChildElement {
+   "id": "0.357873190200364-7",
+   "using": "class name",
+   "value": "iUh30"
+}
+[1551097531.974][INFO]: Waiting for pending navigations...
+[1551097531.982][INFO]: Done waiting for pending navigations. Status: ok
+[1551097531.995][INFO]: Waiting for pending navigations...
+[1551097531.997][INFO]: Done waiting for pending navigations. Status: ok
+[1551097531.997][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE FindChildElement {
+   "ELEMENT": "0.357873190200364-17"
+}
+[1551097532.001][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND GetElementText {
+   "id": "0.357873190200364-17"
+}
+[1551097532.001][INFO]: Waiting for pending navigations...
+[1551097532.002][INFO]: Done waiting for pending navigations. Status: ok
+[1551097532.015][INFO]: Waiting for pending navigations...
+[1551097532.015][INFO]: Done waiting for pending navigations. Status: ok
+[1551097532.015][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE GetElementText "https://www.a3automate.org/"
+[1551097532.018][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND FindChildElement {
+   "id": "0.357873190200364-8",
+   "using": "class name",
+   "value": "iUh30"
+}
+[1551097532.018][INFO]: Waiting for pending navigations...
+[1551097532.018][INFO]: Done waiting for pending navigations. Status: ok
+[1551097532.028][INFO]: Waiting for pending navigations...
+[1551097532.028][INFO]: Done waiting for pending navigations. Status: ok
+[1551097532.028][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE FindChildElement {
+   "ELEMENT": "0.357873190200364-18"
+}
+[1551097532.030][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND GetElementText {
+   "id": "0.357873190200364-18"
+}
+[1551097532.030][INFO]: Waiting for pending navigations...
+[1551097532.031][INFO]: Done waiting for pending navigations. Status: ok
+[1551097532.044][INFO]: Waiting for pending navigations...
+[1551097532.044][INFO]: Done waiting for pending navigations. Status: ok
+[1551097532.044][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE GetElementText "https://automationacademy.com/en"
+[1551097532.047][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND FindChildElement {
+   "id": "0.357873190200364-9",
+   "using": "class name",
+   "value": "iUh30"
+}
+[1551097532.047][INFO]: Waiting for pending navigations...
+[1551097532.047][INFO]: Done waiting for pending navigations. Status: ok
+[1551097532.057][INFO]: Waiting for pending navigations...
+[1551097532.058][INFO]: Done waiting for pending navigations. Status: ok
+[1551097532.058][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE FindChildElement {
+   "ELEMENT": "0.357873190200364-19"
+}
+[1551097532.060][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND GetElementText {
+   "id": "0.357873190200364-19"
+}
+[1551097532.060][INFO]: Waiting for pending navigations...
+[1551097532.060][INFO]: Done waiting for pending navigations. Status: ok
+[1551097532.075][INFO]: Waiting for pending navigations...
+[1551097532.075][INFO]: Done waiting for pending navigations. Status: ok
+[1551097532.075][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE GetElementText "https://help.github.com/.../about-automation-for-project-boa..."
+[1551097532.078][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND FindChildElement {
+   "id": "0.357873190200364-10",
+   "using": "class name",
+   "value": "iUh30"
+}
+[1551097532.078][INFO]: Waiting for pending navigations...
+[1551097532.079][INFO]: Done waiting for pending navigations. Status: ok
+[1551097532.088][INFO]: Waiting for pending navigations...
+[1551097532.089][INFO]: Done waiting for pending navigations. Status: ok
+[1551097532.089][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE FindChildElement {
+   "ELEMENT": "0.357873190200364-20"
+}
+[1551097532.091][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND GetElementText {
+   "id": "0.357873190200364-20"
+}
+[1551097532.091][INFO]: Waiting for pending navigations...
+[1551097532.091][INFO]: Done waiting for pending navigations. Status: ok
+[1551097532.104][INFO]: Waiting for pending navigations...
+[1551097532.105][INFO]: Done waiting for pending navigations. Status: ok
+[1551097532.105][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE GetElementText "https://www.bigcommerce.com/blog/email-automation/"
+[1551097532.107][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND FindChildElement {
+   "id": "0.357873190200364-11",
+   "using": "class name",
+   "value": "iUh30"
+}
+[1551097532.107][INFO]: Waiting for pending navigations...
+[1551097532.107][INFO]: Done waiting for pending navigations. Status: ok
+[1551097532.117][INFO]: Waiting for pending navigations...
+[1551097532.117][INFO]: Done waiting for pending navigations. Status: ok
+[1551097532.117][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE FindChildElement {
+   "ELEMENT": "0.357873190200364-21"
+}
+[1551097532.119][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND GetElementText {
+   "id": "0.357873190200364-21"
+}
+[1551097532.119][INFO]: Waiting for pending navigations...
+[1551097532.120][INFO]: Done waiting for pending navigations. Status: ok
+[1551097532.133][INFO]: Waiting for pending navigations...
+[1551097532.133][INFO]: Done waiting for pending navigations. Status: ok
+[1551097532.133][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE GetElementText "https://www.journals.elsevier.com/automation-in-construction"
+[1551097532.136][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND FindElement {
+   "using": "id",
+   "value": "pnnext"
+}
+[1551097532.136][INFO]: Waiting for pending navigations...
+[1551097532.136][INFO]: Done waiting for pending navigations. Status: ok
+[1551097532.142][INFO]: Waiting for pending navigations...
+[1551097532.142][INFO]: Done waiting for pending navigations. Status: ok
+[1551097532.142][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE FindElement {
+   "ELEMENT": "0.357873190200364-22"
+}
+[1551097532.145][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND ClickElement {
+   "id": "0.357873190200364-22"
+}
+[1551097532.145][INFO]: Waiting for pending navigations...
+[1551097532.145][INFO]: Done waiting for pending navigations. Status: ok
+[1551097532.204][INFO]: Waiting for pending navigations...
+[1551097533.117][INFO]: Done waiting for pending navigations. Status: ok
+[1551097533.117][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE ClickElement
+[1551097533.132][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND Navigate {
+   "url": "https://www.google.com/"
+}
+[1551097533.133][INFO]: Waiting for pending navigations...
+[1551097533.182][INFO]: Done waiting for pending navigations. Status: ok
+[1551097533.334][INFO]: Waiting for pending navigations...
+[1551097533.923][INFO]: Done waiting for pending navigations. Status: ok
+[1551097533.923][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE Navigate
+[1551097533.927][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND Refresh {
+
+}
+[1551097533.927][INFO]: Waiting for pending navigations...
+[1551097533.928][INFO]: Done waiting for pending navigations. Status: ok
+[1551097533.931][INFO]: Waiting for pending navigations...
+[1551097534.666][INFO]: Done waiting for pending navigations. Status: ok
+[1551097534.666][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE Refresh
+[1551097534.669][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND FindElement {
+   "using": "name",
+   "value": "q"
+}
+[1551097534.669][INFO]: Waiting for pending navigations...
+[1551097534.670][INFO]: Done waiting for pending navigations. Status: ok
+[1551097534.681][INFO]: Waiting for pending navigations...
+[1551097534.682][INFO]: Done waiting for pending navigations. Status: ok
+[1551097534.682][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE FindElement {
+   "ELEMENT": "0.41010900773075987-1"
+}
+[1551097534.685][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND TypeElement {
+   "id": "0.41010900773075987-1",
+   "value": [ "automation" ]
+}
+[1551097534.685][INFO]: Waiting for pending navigations...
+[1551097534.686][INFO]: Done waiting for pending navigations. Status: ok
+[1551097534.776][INFO]: Waiting for pending navigations...
+[1551097534.776][INFO]: Done waiting for pending navigations. Status: ok
+[1551097534.776][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE TypeElement
+[1551097534.798][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND TypeElement {
+   "id": "0.41010900773075987-1",
+   "value": [ "" ]
+}
+[1551097534.798][INFO]: Waiting for pending navigations...
+[1551097534.799][INFO]: Done waiting for pending navigations. Status: ok
+[1551097534.879][INFO]: Waiting for pending navigations...
+[1551097536.037][INFO]: Done waiting for pending navigations. Status: ok
+[1551097536.037][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE TypeElement
+[1551097536.040][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND FindElement {
+   "using": "id",
+   "value": "rso"
+}
+[1551097536.040][INFO]: Waiting for pending navigations...
+[1551097536.041][INFO]: Done waiting for pending navigations. Status: ok
+[1551097536.047][INFO]: Waiting for pending navigations...
+[1551097536.047][INFO]: Done waiting for pending navigations. Status: ok
+[1551097536.047][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE FindElement {
+   "ELEMENT": "0.42691454322006295-1"
+}
+[1551097536.051][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND FindChildElements {
+   "id": "0.42691454322006295-1",
+   "using": "css selector",
+   "value": ".g"
+}
+[1551097536.051][INFO]: Waiting for pending navigations...
+[1551097536.054][INFO]: Done waiting for pending navigations. Status: ok
+[1551097536.117][INFO]: Waiting for pending navigations...
+[1551097536.118][INFO]: Done waiting for pending navigations. Status: ok
+[1551097536.118][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE FindChildElements [ {
+   "ELEMENT": "0.42691454322006295-2"
+}, {
+   "ELEMENT": "0.42691454322006295-3"
+}, {
+   "ELEMENT": "0.42691454322006295-4"
+}, {
+   "ELEMENT": "0.42691454322006295-5"
+}, {
+   "ELEMENT": "0.42691454322006295-6"
+}, {
+   "ELEMENT": "0.42691454322006295-7"
+}, {
+   "ELEMENT": "0.42691454322006295-8"
+}, {
+   "ELEMENT": "0.42691454322006295-9"
+}, {
+   "ELEMENT": "0.42691454322006295-10"
+} ]
+[1551097536.123][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND FindChildElement {
+   "id": "0.42691454322006295-2",
+   "using": "class name",
+   "value": "LC20lb"
+}
+[1551097536.123][INFO]: Waiting for pending navigations...
+[1551097536.132][INFO]: Done waiting for pending navigations. Status: ok
+[1551097536.143][INFO]: Waiting for pending navigations...
+[1551097536.143][INFO]: Done waiting for pending navigations. Status: ok
+[1551097536.143][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE FindChildElement {
+   "ELEMENT": "0.42691454322006295-11"
+}
+[1551097536.146][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND ClickElement {
+   "id": "0.42691454322006295-11"
+}
+[1551097536.146][INFO]: Waiting for pending navigations...
+[1551097536.147][INFO]: Done waiting for pending navigations. Status: ok
+[1551097536.215][INFO]: Waiting for pending navigations...
+[1551097555.839][INFO]: Done waiting for pending navigations. Status: ok
+[1551097555.839][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE ClickElement
+[1551097555.842][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND GetTitle {
+
+}
+[1551097555.842][INFO]: Waiting for pending navigations...
+[1551097555.843][INFO]: Done waiting for pending navigations. Status: ok
+[1551097555.845][INFO]: Waiting for pending navigations...
+[1551097555.846][INFO]: Done waiting for pending navigations. Status: ok
+[1551097555.846][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE GetTitle "Automation - Wikipedia"
+[1551097555.849][INFO]: [db70ea2443764815d568a17ed02bc274] COMMAND CloseWindow {
+
+}
+[1551097555.962][INFO]: [db70ea2443764815d568a17ed02bc274] RESPONSE CloseWindow [  ]
