@@ -1,5 +1,6 @@
 package org.imaginarium.selenium.my.first.tests.on.java;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
@@ -16,14 +17,10 @@ public class TestsSettings {
 
     @BeforeClass
     public static void setUp() {
-        System.setProperty("webdriver.chrome.driver",
-                "node_modules/WebDrivers/chromedriver.exe");
-        System.setProperty("webdriver.ie.driver",
-                "node_modules/WebDrivers/IEDriverServer.exe");
+        WebDriverManager.chromedriver().setup();
+//        WebDriverManager.iedriver().arch32().setup();
 
         System.setProperty("webdriver.chrome.logfile", "chromedriver.log");
-        //System.setProperty("webdriver.chrome.verboseLogging", "true");
-
 
         driver = new ChromeDriver(); //InternetExplorerDriver();
         driver.manage().window().maximize();
