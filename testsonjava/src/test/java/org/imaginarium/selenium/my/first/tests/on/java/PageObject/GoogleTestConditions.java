@@ -11,11 +11,14 @@ import java.util.List;
 public class GoogleTestConditions extends PageObject {
 
     public String textToSearch = "automation";
-    int numberOfPagesToCheck = 5;
-    String domainToCheck = "testautomationday.com";
+    private int numberOfPagesToCheck = 5;
+    private String domainToCheck = "testautomationday.com";
 
-    @FindBy(id="rso")
+    @FindBy(id = "rso")
     private WebElement searchResults;
+
+    @FindBy(css = ".g")
+    private WebElement elementFromResults;
 
     public GoogleTestConditions(WebDriver driver) {
         super(driver);
@@ -29,6 +32,7 @@ public class GoogleTestConditions extends PageObject {
 
     public void clickFirstResult() {
         this.searchResults.findElements(By.cssSelector(".g")).get(0).findElement(By.className("LC20lb")).click();
+//        this.searchResults.findElements(By.cssSelector(".g")).get(0).findElement(By.className("LC20lb")).click();
 //        WebElement results = driver.findElement(By.id("rso"));
 //        results.findElements(By.cssSelector(".g")).get(0).findElement(By.className("LC20lb")).click();
     }

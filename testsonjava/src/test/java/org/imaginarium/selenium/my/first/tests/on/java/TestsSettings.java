@@ -20,7 +20,7 @@ public class TestsSettings {
         WebDriverManager.chromedriver().setup();
 //        WebDriverManager.iedriver().arch32().setup();
 
-        System.setProperty("webdriver.chrome.logfile", "chromedriver.log");
+//        System.setProperty("webdriver.chrome.logfile", "chromedriver.log");
 
         driver = new ChromeDriver(); //InternetExplorerDriver();
         driver.manage().window().maximize();
