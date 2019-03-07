@@ -1,32 +1,32 @@
 package org.imaginarium.selenium.my.first.tests.on.java;
 
-import org.imaginarium.selenium.my.first.tests.on.java.PageObject.GoogleTestConditions;
+import org.imaginarium.selenium.my.first.tests.on.java.PageObject.GoogleTests;
 import org.junit.*;
 
-public class AutomatedTests extends TestsSettings{
+public class AutomatedTests extends BaseTest {
 
     @Test
     public void checkTitleOfFirstResult() {
-        GoogleTestConditions google = new GoogleTestConditions(driver);
+        GoogleTests google = new GoogleTests(driver);
 
         google.enterTextToSearch();
         google.clickFirstResult();
 
         String pageTitle = driver.getTitle();
 
-        Assert.assertTrue(pageTitle.toLowerCase().contains(google.textToSearch));
+        Assert.assertTrue("Page title doesn't contain the expected text",
+                pageTitle.toLowerCase().contains(google.textToSearch));
     }
 
     @Test
     public void checkIfDomainIsPresent() {
 
-        GoogleTestConditions google = new GoogleTestConditions(driver);
+        GoogleTests google = new GoogleTests(driver);
 
         google.enterTextToSearch();
 
-        //requirement is to check pages 1-5
         boolean isDomainExists = google.checkIfDomainPresentInResultOnXPages();
 
-        Assert.assertTrue(isDomainExists);
+        Assert.assertTrue("Domain wasn't found", isDomainExists);
     }
 }

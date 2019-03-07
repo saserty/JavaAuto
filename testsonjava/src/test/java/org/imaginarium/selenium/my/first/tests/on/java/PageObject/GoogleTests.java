@@ -8,7 +8,7 @@ import org.openqa.selenium.support.FindBy;
 
 import java.util.List;
 
-public class GoogleTestConditions extends PageObject {
+public class GoogleTests extends BasePage {
 
     public String textToSearch = "automation";
     private int numberOfPagesToCheck = 5;
@@ -20,7 +20,7 @@ public class GoogleTestConditions extends PageObject {
     @FindBy(css = ".g")
     private WebElement elementFromResults;
 
-    public GoogleTestConditions(WebDriver driver) {
+    public GoogleTests(WebDriver driver) {
         super(driver);
     }
 
@@ -50,11 +50,9 @@ public class GoogleTestConditions extends PageObject {
             for (WebElement we : resultsList) {
                 if (we.findElement(By.className("iUh30")).getText().contains(domainToCheck)) {
                     isDomainExists = true;
-                    //System.out.println(we.findElement(By.className("iUh30")).getText() + " true"); //logging
                     break outerloop;
                 } else {
                     isDomainExists = false;
-                    //System.out.println(we.findElement(By.className("iUh30")).getText()); //logging
                 }
             }
 

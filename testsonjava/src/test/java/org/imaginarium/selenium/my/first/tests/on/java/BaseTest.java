@@ -11,7 +11,7 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 
 import java.util.concurrent.TimeUnit;
 
-public class TestsSettings {
+public class BaseTest {
 
     protected static WebDriver driver;
 
