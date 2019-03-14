@@ -19,10 +19,9 @@ public class BaseTest {
     public static void setUp() {
         WebDriverManager.chromedriver().setup();
 //        WebDriverManager.iedriver().arch32().setup();
-
 //        System.setProperty("webdriver.chrome.logfile", "chromedriver.log");
 
-        driver = new ChromeDriver(); //InternetExplorerDriver();
+        driver = new ChromeDriver(); // InternetExplorerDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
     }
@@ -35,7 +34,7 @@ public class BaseTest {
 
     @After
     public void cleanUp() {
-        //driver.manage().deleteAllCookies();
+        // useless for now;
     }
 
     @AfterClass
