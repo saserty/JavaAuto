@@ -10,10 +10,12 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 
+import javax.swing.*;
 import java.awt.*;
 import java.io.*;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
+import java.time.Duration;
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
@@ -37,6 +39,10 @@ public class BaseTest {
         juWriter.write("<html><body>");
         juWriter.write("<h1>Test Execution Report - " + dateFormat.format(date)
                 + "</h1>");
+        juWriter.write("<table>" + "<tr>"
+                + "<th>" + "STATUS" + "</th>"
+                + "<th>" + "TEST" + "</th>"
+                + "</tr>" + "</table>");
         //endregion
 
         WebDriverManager.chromedriver().setup();
@@ -78,6 +84,12 @@ public class BaseTest {
     @Rule
     public TestRule testWatcher = new TestWatcher() {
 
+        private Date startTime;
+        private Date stopTime;
+        private Icon okTest = new ImageIcon("src/report/images/icons8-ok-48.png");
+        private Icon failTest = new ImageIcon("src/report/images/icons8-cancel-48.png");
+        private Icon skipTest = new ImageIcon("src/report/images/icons8-skip-48.png");
+
         @Override
         public Statement apply(Statement base, Description description) {
             return super.apply(base, description);
@@ -86,8 +98,9 @@ public class BaseTest {
         @Override
         protected void succeeded(Description description) {
             try {
-                juWriter.write(description.getDisplayName().split("\\(", 2)[0] + " "
-                        + "Passed"); // html
+                juWriter.write("<img src=" + okTest + " width=\"12\" height=\"12\">" + "&emsp;"
+                        + description.getDisplayName().split("\\(", 2)[0] + " "
+                        + "<font color=\"green\">" + "&emsp;Passed" + "</font>"); // html
                 System.out.println(description.getDisplayName().split("\\(", 2)[0] + " "
                         + "Passed"); // console
                 juWriter.write("<br/>");
@@ -99,13 +112,46 @@ public class BaseTest {
         @Override
         protected void failed(Throwable e, Description description) {
             try {
-                juWriter.write(description.getDisplayName().split("\\(", 2)[0] + " "
-                        + e.getClass().getSimpleName() + " " + e.getMessage()); // html
+                juWriter.write("<img src=" + failTest + " width=\"12\" height=\"12\">" + "&emsp;"
+                        + description.getDisplayName().split("\\(", 2)[0] + " "
+                        + "<font color=\"red\">" + "&emsp;Failed" + "</font>" + "&emsp;"
+                        + e.getClass().getSimpleName() + "&emsp;" + e.getMessage()); // html
                 System.out.println(description.getDisplayName().split("\\(", 2)[0] + " "
                         + e.getClass().getSimpleName() + " " + e.getMessage()); // console
                 juWriter.write("<br/>");
             } catch (Exception e2) {
                 System.out.println(e2.getMessage());
+            }
+        }
+
+        @Override
+        protected void starting(Description description) {
+            this.startTime = new Date();
+        }
+
+        @Override
+        protected void finished(Description description) {
+            try {
+                DateFormat dateFormat = new SimpleDateFormat("HH:mm:ss");
+                this.stopTime = new Date();
+                Duration duration = Duration.between(startTime.toInstant(), stopTime.toInstant());
+
+                juWriter.write(String.format(
+                        "<table>" + "<tr>"/* + description.*/
+                        + "<td>" + "&emsp;&emsp;" + "Start time: " + dateFormat.format(startTime) + "</td>"
+                        + "<td>" + "&emsp;" + "Stop time: " + dateFormat.format(stopTime) + "</td>"
+                        + "<td>" + "&emsp;" + "Duration: " + duration.toMinutes() + ":" + duration.getSeconds() % 60
+                                + "." + String.format("%1$tL", duration.toMillis() % 1000) + "</td>"
+                        + "</tr>" + "</table>"
+                ));
+                // number of tests: 2. passed: 1. failed: 1. skipped: 0
+                System.out.println("  Start time: " + dateFormat.format(startTime)
+                        + "  Stop time: " + dateFormat.format(stopTime)
+                        + "  Duration: " + duration.toMinutes() + ":" + duration.getSeconds() % 60
+                        + "." + String.format("%1$tL", duration.toMillis() % 1000));
+                juWriter.write("<br/>");
+            } catch (Exception e4) {
+                System.out.println(e4.getMessage());
             }
         }
     };

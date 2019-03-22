@@ -24,7 +24,7 @@ public class AutomatedTests extends BaseTest {
     @Parameterized.Parameters
     public static List<Object[]> testParams() {
         return Arrays.asList(new Object[][] {
-                { "automation", 5, "testautomationday.com"},
+                { "automation", 5, "testautomationday.com" },
         });
     }
 
