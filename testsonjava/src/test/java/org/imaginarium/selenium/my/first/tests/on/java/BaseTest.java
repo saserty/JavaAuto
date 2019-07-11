@@ -37,8 +37,7 @@ public class BaseTest {
         juReport = new File(juReportFile);
         juWriter = new BufferedWriter(new FileWriter(juReport, true));
         juWriter.write("<html><body>");
-        juWriter.write("<h1>Test Execution Report - " + dateFormat.format(date)
-                + "</h1>");
+        juWriter.write("<h1>Test Execution Report - " + dateFormat.format(date) + "</h1>");
         juWriter.write("<table>" + "<tr>"
                 + "<th>" + "STATUS" + "</th>"
                 + "<th>" + "TEST" + "</th>"
@@ -137,7 +136,7 @@ public class BaseTest {
                 Duration duration = Duration.between(startTime.toInstant(), stopTime.toInstant());
 
                 juWriter.write(String.format(
-                        "<table>" + "<tr>"/* + description.*/
+                        "<table>" + "<tr>"
                         + "<td>" + "&emsp;&emsp;" + "Start time: " + dateFormat.format(startTime) + "</td>"
                         + "<td>" + "&emsp;" + "Stop time: " + dateFormat.format(stopTime) + "</td>"
                         + "<td>" + "&emsp;" + "Duration: " + duration.toMinutes() + ":" + duration.getSeconds() % 60
